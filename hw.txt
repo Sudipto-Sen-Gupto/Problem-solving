@@ -23,7 +23,7 @@ details
 ADVANCED: কেস ইনসেনসিটিভ Handle করো।
 
 // Problem 03:
-একটি নতুন কোম্পানি, "AlphaCorp", তাদের employee দেরকে তাদের ডেটাবেজে একসেস দেওয়ার জন্য স্বয়ংক্রিয়ভাবে একটি Unique Employee username তৈরি করতে চায়। এই username employee দের কিছু ব্যক্তিগত তথ্যের উপর ভিত্তি করে তৈরি হবে।
+একটি নতুন কোম্পানি, "AlphaCorp", তাদের employee দেরকে তাদের ডেটাবেজে একসেস দেওয়ার জন্য স্বয়ংক্রিয়ভাবে একটি Unique Employee username তৈরি করতে চায়। এই username employee দের কিছু ব্যক্তিগত তথ্যের উপর ভিত্তি করে তৈরি হবে। y  
 
 আপনাকে একটি প্রোগ্রাম লিখতে হবে যা একটি employee নামে অবজেক্ট ইনপুট নেবে, যেখানে কর্মীদের তথ্য নিম্নলিখিতভাবে থাকবে:
 { firstName: "John", lastName: "Doe", employeeId: 101, departmentCode: "HR" }

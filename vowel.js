@@ -34,7 +34,7 @@ function containsAllVowels(str) {
   // Check for each vowel
   return ['a', 'e', 'i', 'o', 'u'].every(vowel => str.includes(vowel));
 }
-
+  
 // Example usage
 // let input = "Education is a powerful tool";
 // if (containsAllVowels(input)) {
