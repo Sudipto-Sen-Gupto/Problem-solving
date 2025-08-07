@@ -27,13 +27,13 @@ if (hasAll) {
 
 
 
-function containsAllVowels(str) {
-  // Convert string to lowercase to handle uppercase letters
-  str = str.toLowerCase();
+// function containsAllVowels(str) {
+//   // Convert string to lowercase to handle uppercase letters
+//   str = str.toLowerCase();
 
-  // Check for each vowel
-  return ['a', 'e', 'i', 'o', 'u'].every(vowel => str.includes(vowel));
-}
+//   // Check for each vowel
+//   return ['a', 'e', 'i', 'o', 'u'].every(vowel => str.includes(vowel));
+// }
   
 // Example usage
 // let input = "Education is a powerful tool";

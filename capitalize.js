@@ -1,19 +1,27 @@
 // Capitalize Every first Letter of each word in a String
 
-let sentence="i am bigger than you.";
+ let sentence="i am bigger than you.";
+ let words=sentence.split(" ");
+ let output="";
 
-sentence=sentence.split(" ");
-console.log(sentence);
+ for(let i=0;i<words.length;i++){
 
-let str = "capitalize every first letter";
-let words = str.split(" ");
-let result = "";
+  let word=words[i];
+  let capitalLetter=word[0].toUpperCase()+word.slice(1);
+  output=output+capitalLetter+" ";
+ }
+ console.log(output);
+ 
 
-for (let i = 0; i < words.length; i++) {
-  let word = words[i];
-  let capitalized = word[0].toUpperCase() + word.slice(1);
-  result += capitalized + " ";
-}
 
-console.log(result.trim());
+
+
+
+
+
+
+
+
+
+
 
